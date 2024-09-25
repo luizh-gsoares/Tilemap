@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#controls > button {
+    padding: 10px;
+}
+
+canvas {
+    background-color: green;
+    position: relative;
+    left: 50%;
+    translate: -50% 0;
+    height: 448px;
+    width: 800px;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+#tilemap {
+    display: none;
+}
